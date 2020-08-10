@@ -22,7 +22,11 @@ class TestTranvisTests: XCTestCase {
          let i = 111
          XCTAssert(i == 111, "Demo Integer is not equal")
      }
-  
+  func testExample1() {
+      let i = 112
+      XCTAssert(i == 112, "Demo Integer is not equal")
+  }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
